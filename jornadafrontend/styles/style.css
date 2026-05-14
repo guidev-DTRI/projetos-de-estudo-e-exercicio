@@ -1,0 +1,228 @@
+/*--azul: #009CFF;
+--preto: #0A0A0A;
+--cinza #1A1A1A;
+--branco: #FFFFFF;
+Codigo de cores de inspiracao*/
+
+
+body {
+    background: linear-gradient(135deg, #009CFF, #000000);
+
+    min-height: 100vh;
+
+    color: white;
+
+    font-family: 'Oswald', sans-serif;
+}
+h3 {
+    background: linear-gradient(135deg, #009CFF, #000000);
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    text-align: center;
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+    font-family: 'cheddar-gothic-sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+
+    box-shadow: 0px 0px 10px rgba(0, 156, 255, 0.4);
+}
+.tabela-calendario {
+    width: 45%;
+    max-width: 550px;
+    min-width: 300px;
+    margin: 20px left;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #009CFF;
+    border-radius: 20px;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.tabela-calendario th,
+.tabela-calendario td {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 8px;
+}
+
+.exp-container {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 12px;
+}
+
+label {
+    font-size: 20px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+}
+
+/* Barra inteira */
+progress {
+    width: 100%;
+
+    height: 15px;
+
+    border: none;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+}
+
+/* Fundo da barra */
+progress::-webkit-progress-bar {
+    background-color: #111;
+
+    border-radius: 20px;
+}
+
+/* Parte preenchida */
+progress::-webkit-progress-value {
+    background: linear-gradient(to right, #009CFF, #00d4ff);
+
+    border-radius: 20px;
+
+    box-shadow: 0px 0px 15px rgba(0,156,255,0.7);
+}
+
+/* Firefox */
+progress::-moz-progress-bar {
+    background: linear-gradient(to right, #009CFF, #00d4ff);
+
+    border-radius: 20px;
+}
+
+/* Caixa do level */
+.level-box {
+    width: fit-content;
+
+    padding: 10px 10px;
+
+    background: linear-gradient(135deg, #009CFF, #000000);
+
+    border-radius: 12px;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    box-shadow: 0px 0px 15px rgba(0,156,255,0.5);
+}
+.header-banner {
+    background: linear-gradient(90deg, #000000, #003b5c, #09cff0);
+    padding: 1px;
+    border-radius: 10px;
+    text-align: center;
+    color: #daa520;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+.secao-metas{
+    margin: 25px 0;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.45);
+    overflow: hidden;
+    border: 1px solid rgba(0, 156, 255, 0.5);
+}
+.secao-metas summary {
+    padding: 10px;
+
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    background: linear-gradient(90deg, #000000, #003b5c, #09CfF0);
+    color:#CD7F32;
+}
+a {
+    font-size: 18px;
+
+}
+.topo-site {
+    display: flex;
+
+    align-items: center;
+
+    gap: 30px;
+
+    padding: 20px;
+}
+
+.secao-metasdia {
+     margin: 25px 0;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.45);
+    overflow: hidden;
+    border: 1px solid rgba(0, 156, 255, 0.5);
+}
+.secao-metasdia summary {
+    padding: 10px;
+
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    background: linear-gradient(90deg, #000000, #003b5c, #09CfF0);
+    color:#808080;
+}
+.secao-metassem {
+     margin: 25px 0;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.45);
+    overflow: hidden;
+    border: 1px solid rgba(0, 156, 255, 0.5);
+}
+.secao-metassem summary {
+    padding: 10px;
+
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    background: linear-gradient(90deg, #000000, #003b5c, #09CfF0);
+    color:#daa520;
+}
+.secao-metasanu {
+     margin: 25px 0;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.45);
+    overflow: hidden;
+    border: 1px solid rgba(0, 156, 255, 0.5);
+}
+.secao-metasanu summary {
+    padding: 10px;
+
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    background: linear-gradient(90deg, #000000, #003b5c, #09CfF0);
+    color:#808080;
+}
+.secao-metas12 {
+     margin: 25px 0;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.45);
+    overflow: hidden;
+    border: 1px solid rgba(0, 156, 255, 0.5);
+}
+.secao-metas12 summary {
+    padding: 10px;
+
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    background: linear-gradient(90deg, #000000, #003b5c, #09CfF0);
+    color:#daa520;
+}
